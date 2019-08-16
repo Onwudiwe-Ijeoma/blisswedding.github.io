@@ -1,0 +1,286 @@
+
+body, *{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    background-image: url(images/b1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header a{
+    
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+header #brand h1{
+    margin:0;
+    padding: 0;
+}
+header a:hover{
+    color:hotpink;
+    font-weight: bold;
+
+
+}
+.site__logo{
+    color: white;
+}
+.site__logo--pink{
+    color: fuchsia;
+}
+.logo{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.happycouple{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.happycouple h1,p{
+    color: white;
+}
+#wedding{
+    background-image: url(images/a2.jpg);
+    height: 50vh;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.wed h1{
+    text-align: center;
+    top: 50%;
+    left:50%;
+    padding-top: 100px;
+
+}
+.page-section{
+    
+    width: 100%;
+
+    
+}
+.page-section-inner{
+    width: 80%;
+    margin: 0 auto;
+}
+.page-section.about-section{
+    background-color: white;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.ab h1{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.what h2 {
+    text-align: left;
+    color: hotpink;
+    padding-left: 150px;
+    order: 1;
+    
+}
+.what p{
+    color: black;
+    padding-left: 150px;
+}
+.pb{
+    padding-top: 20px;
+     padding-left: 150px;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.sml-pic{
+width: 50%;
+float: right;
+}
+.sml-pic img{
+ height: 200px;
+align-items: flex-end;
+ padding-left: 100px;
+    margin-top: -150px;
+}
+
+.page-section.servebackround{
+    background-image: url(images/s3.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%
+
+    
+}
+.serv h1{
+    text-align: center;
+    padding-top: 100px;
+    color:white;
+}
+
+.squares{
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+
+    }
+.squares h3 {
+    color: white;
+    
+}
+.squares one,two,three,four{
+    background-color: black;
+}
+
+#blog{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    
+}
+.our blog{
+    
+}
+.ourblog h1{
+    text-align: center;
+    
+}.max h3{
+    text-align: center;
+    color: fuchsia;
+    
+}
+.max p{
+    text-align: center;
+    color: black;
+}
+.man img{
+    width: 300px;
+    float: right;
+    padding-right: 150px;
+
+}
+.button {
+    align-self: center;
+  background-color:fuchsia;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+    }
+.lana h3{
+    padding-top: 100px;
+    text-align: center;
+    color: fuchsia;
+    
+}
+.lana p{
+    text-align: center;
+    color: black;
+}
+.woman img{
+    width: 300px;
+    float: left;
+    padding-left: 150px;
+}
+
+#happy{
+    background-image: url(images/ph1.jpg);
+    background-position: center;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    
+}
+.hc h1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    
+}
+.cubes{
+    display: flex;
+    justify-content: center;
+}
+.cubes img{
+    width: 150px;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 50px;
+
+    
+}
+.container{
+    width: 100%;
+}
+#gal{
+     background-color: white;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+.gallery h1{
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+    
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.pictures img{
+ width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
